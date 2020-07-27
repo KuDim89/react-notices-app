@@ -3,7 +3,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import {Home} from "./pages/Home";
 import {About} from "./pages/About";
 import {Navbar} from "./component/Navbar";
-import {Alert} from "./component/Alert";
+import {Alert} from "./component/Alert/Alert";
 import {AlertState} from "./context/Alert/AlertState";
 import {FirebaseState} from "./context/firebase/FirebaseState";
 
