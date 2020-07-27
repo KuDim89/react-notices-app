@@ -10,10 +10,10 @@ export const Forme = () => {
 
     if (value.trim()) {
       // ...
-      alert.show(' Note was created', 'success')
+      alert.show('Note was created', 'success')
       setValue('')
     } else {
-      alert.show(' Enter note name')
+      alert.show('Enter note name')
     }
   }
 
